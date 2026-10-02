@@ -1,0 +1,267 @@
+==========================================================
+ HARDCORE AI ENGINEER ROADMAP + MUST-KNOW URLS
+==========================================================
+Tip: Links change over time. If one breaks, search the title.
+Rule #1: Build projects at every stage. Watching != learning.
+
+----------------------------------------------------------
+ PHASE 0 - PREREQUISITES (4-6 weeks)
+----------------------------------------------------------
+Python
+- Python official tutorial: https://docs.python.org/3/tutorial/
+- CS50P (Harvard): https://cs50.harvard.edu/python/
+- Real Python: https://realpython.com/
+- NumPy: https://numpy.org/doc/stable/user/quickstart.html
+- Pandas: https://pandas.pydata.org/docs/getting_started/
+- Matplotlib: https://matplotlib.org/stable/tutorials/
+
+Dev tools
+- Git/GitHub: https://docs.github.com/en/get-started
+- Missing Semester (MIT): https://missing.csail.mit.edu/
+- Linux command line: https://linuxjourney.com/
+- Docker: https://docs.docker.com/get-started/
+
+Math (just enough, then deepen later)
+- 3Blue1Brown Linear Algebra: https://www.3blue1brown.com/topics/linear-algebra
+- 3Blue1Brown Calculus: https://www.3blue1brown.com/topics/calculus
+- Khan Academy (Stats/Probability): https://www.khanacademy.org/math/statistics-probability
+- Mathematics for Machine Learning (free book): https://mml-book.github.io/
+- MIT 18.06 Linear Algebra (Gilbert Strang): https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
+- StatQuest (YouTube): https://www.youtube.com/@statquest
+
+----------------------------------------------------------
+ PHASE 1 - CLASSICAL MACHINE LEARNING (6-8 weeks)
+----------------------------------------------------------
+- Andrew Ng ML Specialization: https://www.coursera.org/specializations/machine-learning-introduction
+- Stanford CS229: https://cs229.stanford.edu/
+- scikit-learn docs/user guide: https://scikit-learn.org/stable/user_guide.html
+- Kaggle Learn (free micro-courses): https://www.kaggle.com/learn
+- Kaggle competitions: https://www.kaggle.com/competitions
+- Hands-On ML (Aurelien Geron) code: https://github.com/ageron/handson-ml3
+- Google ML Crash Course: https://developers.google.com/machine-learning/crash-course
+- Made With ML (MLOps + ML): https://madewithml.com/
+- ISLP (Intro to Statistical Learning): https://www.statlearning.com/
+
+Topics: regression, classification, trees, boosting (XGBoost/LightGBM),
+SVM, clustering, PCA, cross-validation, bias/variance, feature engineering.
+
+----------------------------------------------------------
+ PHASE 2 - DEEP LEARNING (8-10 weeks)
+----------------------------------------------------------
+- Deep Learning Specialization (Andrew Ng): https://www.coursera.org/specializations/deep-learning
+- fast.ai Practical Deep Learning: https://course.fast.ai/
+- PyTorch tutorials: https://pytorch.org/tutorials/
+- Dive into Deep Learning (free book): https://d2l.ai/
+- Karpathy - Neural Networks: Zero to Hero: https://karpathy.ai/zero-to-hero.html
+- Stanford CS231n (Vision): https://cs231n.stanford.edu/
+- Deep Learning Book (Goodfellow): https://www.deeplearningbook.org/
+- Neural Networks and Deep Learning (Nielsen): http://neuralnetworksanddeeplearning.com/
+- Distill (visual explanations): https://distill.pub/
+- Papers With Code: https://paperswithcode.com/
+
+Topics: backprop, optimizers, CNNs, RNNs, regularization, batch norm,
+transfer learning, training loops, debugging NNs.
+
+----------------------------------------------------------
+ PHASE 3 - TRANSFORMERS & LLMs (8-12 weeks)  <-- CORE
+----------------------------------------------------------
+Theory
+- Attention Is All You Need (paper): https://arxiv.org/abs/1706.03762
+- The Illustrated Transformer: https://jalammar.github.io/illustrated-transformer/
+- Karpathy - Let's build GPT: https://www.youtube.com/watch?v=kCc8FmEb1nY
+- Karpathy - Intro to LLMs: https://www.youtube.com/watch?v=zjkBMFhNj_g
+- Stanford CS224N (NLP): https://web.stanford.edu/class/cs224n/
+- Stanford CS336 (LLMs from scratch): https://stanford-cs336.github.io/
+- Hugging Face LLM Course: https://huggingface.co/learn/llm-course
+- Hugging Face Transformers docs: https://huggingface.co/docs/transformers
+- Sebastian Raschka - Build an LLM from Scratch: https://github.com/rasbt/LLMs-from-scratch
+- Lilian Weng's blog: https://lilianweng.github.io/
+- Sebastian Raschka's Magazine: https://magazine.sebastianraschka.com/
+
+Fine-tuning & alignment
+- PEFT / LoRA: https://huggingface.co/docs/peft
+- TRL (SFT, DPO, RLHF): https://huggingface.co/docs/trl
+- Unsloth (fast fine-tuning): https://github.com/unslothai/unsloth
+- Axolotl: https://github.com/axolotl-ai-cloud/axolotl
+- LoRA paper: https://arxiv.org/abs/2106.09685
+- QLoRA paper: https://arxiv.org/abs/2305.14314
+- DPO paper: https://arxiv.org/abs/2305.18290
+
+Topics: tokenization, embeddings, attention, positional encoding, pretraining,
+SFT, RLHF/DPO, LoRA/QLoRA, quantization, scaling laws, MoE, long context.
+
+----------------------------------------------------------
+ PHASE 4 - APPLIED AI ENGINEERING (8-12 weeks)  <-- JOB SKILLS
+----------------------------------------------------------
+Prompting & APIs
+- Anthropic docs: https://docs.claude.com
+- Anthropic prompt engineering guide: https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview
+- Anthropic courses (GitHub): https://github.com/anthropics/courses
+- Anthropic Cookbook: https://github.com/anthropics/anthropic-cookbook
+- OpenAI docs: https://platform.openai.com/docs
+- OpenAI Cookbook: https://cookbook.openai.com/
+- Google Gemini API: https://ai.google.dev/
+- Prompt Engineering Guide: https://www.promptingguide.ai/
+- Building Effective Agents (Anthropic): https://www.anthropic.com/engineering/building-effective-agents
+
+RAG & vector search
+- LangChain docs: https://python.langchain.com/docs/
+- LlamaIndex docs: https://docs.llamaindex.ai/
+- Chroma: https://docs.trychroma.com/
+- Qdrant: https://qdrant.tech/documentation/
+- pgvector: https://github.com/pgvector/pgvector
+- FAISS: https://github.com/facebookresearch/faiss
+- Sentence Transformers: https://www.sbert.net/
+- MTEB embedding leaderboard: https://huggingface.co/spaces/mteb/leaderboard
+
+Agents & tool use
+- Model Context Protocol (MCP): https://modelcontextprotocol.io/
+- LangGraph: https://langchain-ai.github.io/langgraph/
+- Hugging Face Agents course: https://huggingface.co/learn/agents-course
+- Claude Agent SDK / Claude Code docs: https://docs.claude.com
+- CrewAI: https://docs.crewai.com/
+
+Evaluation & observability
+- Hamel Husain - evals: https://hamel.dev/
+- Eugene Yan (applied ML/LLM): https://eugeneyan.com/
+- LangSmith: https://docs.smith.langchain.com/
+- Langfuse (open-source): https://langfuse.com/docs
+- RAGAS: https://docs.ragas.io/
+- promptfoo: https://www.promptfoo.dev/docs/intro
+
+Free courses (short, high value)
+- DeepLearning.AI short courses: https://www.deeplearning.ai/short-courses/
+- Full Stack LLM Bootcamp: https://fullstackdeeplearning.com/llm-bootcamp/
+- Chip Huyen - AI Engineering (book/site): https://huyenchip.com/
+
+----------------------------------------------------------
+ PHASE 5 - MLOps / PRODUCTION / INFRA (6-8 weeks)
+----------------------------------------------------------
+Serving & inference
+- vLLM: https://docs.vllm.ai/
+- llama.cpp: https://github.com/ggml-org/llama.cpp
+- Ollama: https://ollama.com/
+- Text Generation Inference: https://huggingface.co/docs/text-generation-inference
+- TensorRT-LLM: https://github.com/NVIDIA/TensorRT-LLM
+- FastAPI: https://fastapi.tiangolo.com/
+
+Pipelines & deployment
+- Full Stack Deep Learning: https://fullstackdeeplearning.com/
+- MLOps Zoomcamp: https://github.com/DataTalksClub/mlops-zoomcamp
+- MLflow: https://mlflow.org/docs/latest/
+- Weights & Biases: https://docs.wandb.ai/
+- Kubernetes basics: https://kubernetes.io/docs/tutorials/kubernetes-basics/
+- Ray: https://docs.ray.io/
+- Modal (serverless GPU): https://modal.com/docs
+- DVC (data versioning): https://dvc.org/doc
+
+Topics: batching, KV cache, quantization (GPTQ/AWQ/GGUF), latency/cost
+optimization, CI/CD, monitoring, drift, guardrails, caching.
+
+----------------------------------------------------------
+ PHASE 6 - ADVANCED / "HARDCORE" TRACK (ongoing)
+----------------------------------------------------------
+Systems & performance
+- GPU MODE (CUDA/Triton community): https://www.youtube.com/@GPUMODE
+- CUDA programming guide: https://docs.nvidia.com/cuda/cuda-c-programming-guide/
+- Triton language: https://triton-lang.org/
+- How to Scale Your Model (JAX/TPU book): https://jax-ml.github.io/scaling-book/
+- Ultra-Scale Playbook (HF): https://huggingface.co/spaces/nanotron/ultrascale-playbook
+- DeepSpeed: https://www.deepspeed.ai/
+- PyTorch FSDP docs: https://pytorch.org/docs/stable/fsdp.html
+- FlashAttention paper: https://arxiv.org/abs/2205.14135
+
+Research & frontier
+- arXiv cs.LG: https://arxiv.org/list/cs.LG/recent
+- arXiv cs.CL: https://arxiv.org/list/cs.CL/recent
+- Hugging Face Daily Papers: https://huggingface.co/papers
+- Anthropic research: https://www.anthropic.com/research
+- Transformer Circuits (interpretability): https://transformer-circuits.pub/
+- ARENA (AI safety/mech interp curriculum): https://www.arena.education/
+- Alignment Forum: https://www.alignmentforum.org/
+- Chinchilla scaling laws: https://arxiv.org/abs/2203.15556
+
+Other specializations (pick one)
+- Reinforcement learning: https://spinningup.openai.com/ and https://huggingface.co/learn/deep-rl-course
+- Computer vision: https://cs231n.stanford.edu/ and https://huggingface.co/learn/computer-vision-course
+- Diffusion models: https://huggingface.co/learn/diffusion-course
+- Speech/audio: https://huggingface.co/learn/audio-course
+- Multimodal: https://huggingface.co/learn/cookbook
+
+----------------------------------------------------------
+ DAILY NEWS / COMMUNITIES / PRACTICE
+----------------------------------------------------------
+- Hugging Face Hub (models, datasets): https://huggingface.co/
+- Latent Space podcast/newsletter: https://www.latent.space/
+- The Batch (Andrew Ng): https://www.deeplearning.ai/the-batch/
+- Import AI (Jack Clark): https://importai.substack.com/
+- Simon Willison's blog: https://simonwillison.net/
+- Andrej Karpathy YouTube: https://www.youtube.com/@AndrejKarpathy
+- Yannic Kilcher (paper reviews): https://www.youtube.com/@YannicKilcher
+- Two Minute Papers: https://www.youtube.com/@TwoMinutePapers
+- r/MachineLearning: https://www.reddit.com/r/MachineLearning/
+- r/LocalLLaMA: https://www.reddit.com/r/LocalLLaMA/
+- LeetCode (interview coding): https://leetcode.com/
+- Kaggle: https://www.kaggle.com/
+- Hugging Face Spaces (deploy demos free): https://huggingface.co/spaces
+- Awesome Machine Learning: https://github.com/josephmisiti/awesome-machine-learning
+- Awesome LLM: https://github.com/Hannibal046/Awesome-LLM
+- roadmap.sh AI Engineer: https://roadmap.sh/ai-engineer
+- roadmap.sh AI & Data Scientist: https://roadmap.sh/ai-data-scientist
+
+----------------------------------------------------------
+ BOOKS (pick a few)
+----------------------------------------------------------
+1. Hands-On Machine Learning (Geron)
+2. Deep Learning (Goodfellow, Bengio, Courville) - free online
+3. AI Engineering (Chip Huyen)
+4. Designing Machine Learning Systems (Chip Huyen)
+5. Build a Large Language Model From Scratch (Raschka)
+6. Deep Learning with PyTorch (Stevens et al.)
+7. Pattern Recognition and Machine Learning (Bishop) - free PDF from Microsoft
+8. Designing Data-Intensive Applications (Kleppmann) - for backend depth
+
+----------------------------------------------------------
+ PROJECT LADDER (build these - put on GitHub)
+----------------------------------------------------------
+Beginner
+ 1. House price / churn prediction (scikit-learn, Kaggle dataset)
+ 2. Image classifier with PyTorch (CIFAR-10 / your own images)
+Intermediate
+ 3. Implement a neural net + backprop from scratch with NumPy
+ 4. Fine-tune a small LLM (LoRA) on a custom dataset
+ 5. RAG chatbot over your own PDFs with citations + evals
+Advanced
+ 6. Build a GPT from scratch (Karpathy-style) and train on small data
+ 7. Tool-using agent with MCP servers + eval harness + tracing
+ 8. Deploy an LLM with vLLM behind FastAPI + Docker, load test it,
+    measure latency/throughput/cost
+Hardcore
+ 9. Reproduce a paper (e.g., LoRA, FlashAttention-lite, DPO)
+10. Write a custom CUDA/Triton kernel and benchmark vs PyTorch
+11. Open-source contribution to transformers / vLLM / langchain / etc.
+12. Kaggle medal or a published blog post breaking down a paper
+
+----------------------------------------------------------
+ SUGGESTED TIMELINE (full-time ~ 9-12 months; part-time ~ 18 months)
+----------------------------------------------------------
+Months 1-2   : Python, math, tools, ML basics
+Months 3-4   : Classical ML + Kaggle
+Months 5-6   : Deep learning + PyTorch
+Months 7-8   : Transformers + LLMs + fine-tuning
+Months 9-10  : RAG, agents, evals, APIs (applied AI)
+Months 11-12 : MLOps, serving, one advanced specialization + portfolio
+
+----------------------------------------------------------
+ HABITS OF TOP AI ENGINEERS
+----------------------------------------------------------
+- Read 1-2 papers a week; implement one per month.
+- Code every day; reimplement things from scratch at least once.
+- Always measure: build evals before building features.
+- Ship publicly: GitHub, blog posts, HF Spaces, X/LinkedIn.
+- Learn the stack end to end: data -> training -> eval -> serving -> monitoring.
+- Stay current: the field moves weekly. Follow the news sources above.
+
+==========================================================
+ Good luck. Start today: Phase 0, then build something small.
+==========================================================
